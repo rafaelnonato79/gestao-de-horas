@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const LoginPage = () => {
     return(
-        <div className="container">
+        <div className="loginPage">
             <div className="title">
                 <h1>Sistema de Gestão de Horas</h1>
             </div>

@@ -3,6 +3,7 @@ import "./loginComponent.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logoRH from '../../assets/images/logo-senac.png'
 
+
 function LoginComponent() {
   const[usuario, setUsuario] = useState('');
   const[senha, setSenha] = useState('');

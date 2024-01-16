@@ -1,0 +1,71 @@
+.cadastro{
+    background-image: url(../../assets//images//background-login.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    color: #004A90;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.25ewm;
+    margin-top: 1rem;
+}
+.cadastroBox{
+    background-color: white;
+    width: 30%;
+    height: 95%;
+    border-radius: 20px;
+
+}
+.formulario-cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nome, .email, .matricula, .telefone, .senha-cadastro{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+.nivel{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+select{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #004A90;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.botao-cadastrar{
+    width: 9rem;
+    height: 2.5rem;
+    background-color: #004A90;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.25em;
+    margin-top: 0.5rem;
+}

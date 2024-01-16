@@ -1,19 +1,23 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(../../assets//images//background-login.png);
     
-    background-size: cover;
-    background-position: center;
-    background-repeat:  no-repeat;
+    
+    
 }
-.container{
+.loginPage{
+    background-image: url(../../assets//images//background-login.png);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat:  no-repeat;
 }
 
 .title{
